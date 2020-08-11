@@ -1,0 +1,8 @@
+<!--miniprogram/pages/login/login.wxml-->
+<view class="page">
+    <view>
+        <text>微聊号登录</text>
+    </view>
+
+</view>
+
