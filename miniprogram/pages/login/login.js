@@ -8,6 +8,33 @@ Page({
 
   },
 
+
+  /**
+   * 页面的输入框的样式改变
+   */
+  onFocusPsd: function () {
+    this.setData({
+      psdFocus: 'psdFocus'
+    })
+  },
+  onBlurPsd: function () {
+    this.setData({
+      psdFocus: ''
+    })
+  },
+  onFocusName: function () {
+    this.setData({
+      nameFocus: 'nameFocus'
+    })
+  },
+  onBlurName: function () {
+    this.setData({
+      nameFocus: ''
+    })
+  },
+
+
+
   /**
    * 生命周期函数--监听页面加载
    */
