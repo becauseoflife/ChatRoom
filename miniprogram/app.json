@@ -1,8 +1,37 @@
 {
-  "cloud" : true,
+  "cloud": true,
   "pages": [
-    "pages/login/login"
+    "pages/login/login",
+    "pages/user/user",
+    "pages/news/news",
+    "pages/chatroom/chatroom"
   ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "images/tabbar/icon_news.png",
+        "selectedIconPath": "images/tabbar/icon_news_HL.png"
+      },
+      {
+        "pagePath": "pages/chatroom/chatroom",
+        "text": "聊天室",
+        "iconPath": "images/tabbar/icon_chatroom.png",
+        "selectedIconPath": "images/tabbar/icon_chatroom_HL.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/tabbar/icon_user.png",
+        "selectedIconPath": "images/tabbar/icon_user_HL.png"
+      }
+    ]
+  },
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",

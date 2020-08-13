@@ -1,0 +1,16 @@
+/* miniprogram/pages/user/user.wxss */
+/* 头像 */
+image{
+  height:50px
+}
+
+/* 头像信息背景 */
+.weui-cell_active{
+  background-color: #ffffff;
+}
+
+/* 列表信息 */
+.weui-cells_after-title {
+  margin-top: 60rpx;  
+}
+  

@@ -1,0 +1,20 @@
+/* miniprogram/pages/news/news.wxss */
+/* 头像 */
+image{
+  height: 50px;
+  width: 50px;
+}
+
+/* 头像信息背景 */
+.weui-cell_active{
+  background-color: #ffffff;
+}
+
+/* 列表宽度 */
+.weui-cell {
+  padding: 8px;
+  margin-top: 0;
+}
+.weui-cells {
+  margin-top: 0;
+}    
