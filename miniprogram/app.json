@@ -4,7 +4,8 @@
     "pages/login/login",
     "pages/user/user",
     "pages/news/news",
-    "pages/chatroom/chatroom"
+    "pages/chatroom/chatroom",
+    "pages/room/room"
   ],
   "tabBar": {
     "color": "#7A7E83",
