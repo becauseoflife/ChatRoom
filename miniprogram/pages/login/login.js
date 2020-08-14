@@ -26,6 +26,10 @@ Page({
             wx.showLoading({
               title: '登录中...',
             })
+            //用户信息
+            wx.getUserInfo({
+              lang: 'zh_CN',
+            })
             // 调用云函数
             wx.cloud.callFunction({
               name: 'login',

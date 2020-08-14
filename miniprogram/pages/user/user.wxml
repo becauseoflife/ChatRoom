@@ -5,19 +5,23 @@
 		<view class="weui-cells">
         <view class="weui-cell weui-cell_active">
             <view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
-                <image src="../../images/tabbar/icon_user.png" style="width: 50px; display: block;"></image>
+                <image src="{{avatarUrl}}" style="width: 50px; display: block;"></image>
             </view>
             <view class="weui-cell__bd">
-                <view>联系人名称</view>
-                <view style="font-size: 13px; color: #888;">摘要信息</view>
+                <view>{{nickName}}</view>
+                <view style="font-size: 13px; color: #888;">微聊号: xxxxx</view>
             </view>
         </view>
 		</view>
     
     <view class="weui-cells weui-cells_after-title">
         <view class="weui-cell">
+            <view class="weui-cell__bd">性别</view>
+            <view class="weui-cell__ft">{{gender}}</view>
+        </view>
+        <view class="weui-cell">
             <view class="weui-cell__bd">城市</view>
-            <view class="weui-cell__ft">广东 珠海</view>
+            <view class="weui-cell__ft">{{province}} {{city}}</view>
         </view>
         <view class="weui-cell">
             <view class="weui-cell__bd">个性签名</view>

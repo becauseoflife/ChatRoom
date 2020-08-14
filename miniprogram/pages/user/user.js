@@ -1,4 +1,6 @@
 // miniprogram/pages/user/user.js
+const app = getApp()
+
 Page({
 
   /**
@@ -12,7 +14,33 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log('app globalData userInfo is:',app.globalData.userInfo)
+    let that = this
+    // 获取用户信息
+    wx.getUserInfo({
+      lang: 'zh_CN',
+      success: res => {
+        console.log('getUserInfo >>>', res.userInfo)
+        let userInfo = res.userInfo
+        let gender = '未知'
+        if(userInfo.gender == 1) //性别 0：未知、1：男、2：女
+        {
+          gender = '男'
+        }
+        else
+        {
+          gender = '女'
+        }
+        // 绑定到界面中
+        that.setData({
+          avatarUrl: userInfo.avatarUrl,
+          nickName: userInfo.nickName,
+          gender: gender,
+          province: userInfo.province,
+          city: userInfo.city
+        })
+      }
+    })
   },
 
   /**
