@@ -13,10 +13,13 @@
         <view class="login_btn">
             <button hover-class="btn_hover" bind:tap="login">登录</button>
         </view>
+        <view class="login_btn">
+            <button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo" hover-class="btn_hover">微信登录</button>
+        </view>
 
         <view class="login_text">
             <navigator url="../register/register" open-type="redirect" hover-class="navigator-hover">新用户注册</navigator>
-            <navigator url="../login_token/login_token" open-type="redirect" hover-class="navigator-hover">使用微信登录</navigator>
+            <navigator url="../register/register" open-type="redirect" hover-class="navigator-hover">使用其他方式登录</navigator>
         </view>
         
     </view>
