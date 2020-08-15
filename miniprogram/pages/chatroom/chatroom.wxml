@@ -2,22 +2,29 @@
 <view class="page"  data-weui-theme="{{theme}}">
 	<view class="page__bd">
 
-      <view class="weui-cells weui-cells_after-title">
-          <view class="weui-cell weui-cell_example ">
-              <view class="weui-cell__hd">
-                  <image src="{{icon}}" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
-              </view>
-              <view class="weui-cell__bd">标题文字</view>
-              <view class="weui-cell__ft">说明文字</view>
-          </view>
-          <view class="weui-cell weui-cell_example ">
-              <view class="weui-cell__hd">
-                  <image src="{{icon}}" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
-              </view>
-              <view class="weui-cell__bd">标题文字</view>
-              <view class="weui-cell__ft">说明文字</view>
-          </view>
-      </view>
-  
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_example ">
+                <view class="weui-cell__hd">
+                    <image src="../../images/tabbar/icon_chatroom_HL.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">富婆聊天室</view>
+                <!-- <view class="weui-cell__ft">说明文字</view> -->
+            </view>
+            <view class="weui-cell weui-cell_example ">
+                <view class="weui-cell__hd">
+                    <image src="../../images/tabbar/icon_chatroom_HL.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">咸鱼聊天室</view>
+                <!-- <view class="weui-cell__ft">说明文字</view> -->
+            </view>
+        </view>
+
+
+        <view class='addbutton'>
+            <view class='add-item' bindtap="chooseImage">
+                <image class='add-icon' src='../../images/icon_add.png'></image>
+            </view>      
+        </view>
+
   </view>
 </view>

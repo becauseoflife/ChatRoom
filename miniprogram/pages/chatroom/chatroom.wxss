@@ -1,1 +1,19 @@
 /* miniprogram/pages/chatroom/chatroom.wxss */
+page{
+    height: 100%;
+}
+
+.addbutton {
+    position: fixed;
+    bottom: 1.5em;
+    right: 1.5em;
+    width: 138rpx;
+    height: 138rpx;
+    z-index: 100;
+}
+.addbutton .add-icon {
+    display: block;
+    margin: 0 auto;
+    width: 127rpx;
+    height: 127rpx;  
+}

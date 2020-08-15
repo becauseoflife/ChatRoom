@@ -96,6 +96,19 @@
 					"pathName": "pages/login/login",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/chatroom/chatroom",
+					"pathName": "pages/chatroom/chatroom",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addChatroom/addChatroom",
+					"pathName": "pages/addChatroom/addChatroom",
+					"scene": null
 				}
 			]
 		}

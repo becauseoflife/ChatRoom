@@ -20,7 +20,7 @@
             <view class="weui-cell__ft">{{gender}}</view>
         </view>
         <view class="weui-cell">
-            <view class="weui-cell__bd">城市</view>
+            <view class="weui-cell__bd">地区</view>
             <view class="weui-cell__ft">{{province}} {{city}}</view>
         </view>
         <view class="weui-cell">
